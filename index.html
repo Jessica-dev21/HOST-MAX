@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Host Max</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <!-- Barra de Nacvegação -->
+            <nav>
+                <a href="#">
+                    <img src="img/Logo.png" alt="HosMax" class="logo">
+                </a>
+                <ul class="navbar-items">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Preços</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#" class="default-btn">Entrar</a>
+                    </li>
+                </ul>
+            </nav>
+         </div>
+        <!-- Conteudo Principal -->
+        <main>
+            <div class="main-baner">
+                <h1> Host Max</h1>
+                <p>Mais que um host, um parceiro, serviços para projetos de todos os tamanhos</p>
+            </div>
+            <section class="services-container">
+                <ul>
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Segurança</h3>
+                        <p>Com a Host Max, a segurança do seu site é nossa máxima prioridade. Nossos servidores de última geração são equipados com as mais avançadas tecnologias de segurança, garantindo a proteção dos seus dados contra ataques cibernéticos. Com firewalls robustos, sistemas de detecção de intrusão e backups regulares, você pode ter a tranquilidade de que seu site está em boas mãos. Além disso, contamos com equipe especializada em segurança que monitora constantemente nossos sistemas, proporcionando a você a melhor proteção possível.</p>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-rocket"></i>
+                        <h3>Performace</h3>
+                        <p>Nossa infraestrutura de ponta garante um desempenho excepcional, com carregamento de páginas ultrarrápido e alta disponibilidade. Utilizando servidores de última geração e tecnologias otimizadas, oferecemos um ambiente ideal para o seu site, maximizando a experiência do usuário e impulsionando seus resultados. Com a Host Max, você pode ter certeza de que seu site estará sempre online e funcionando no seu máximo potencial.</p>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-comments"></i>
+                        <h3>Suporte 24/7</h3>
+                        <p> Nosso suporte técnico especializado 24 horas por dia, 7 dias por semana. Nossa equipe está sempre pronta para te auxiliar em qualquer dúvida ou problema que possa surgir, garantindo que seu site esteja sempre online e funcionando perfeitamente. Seja para configurar um e-mail, solucionar um problema técnico ou apenas tirar uma dúvida, você pode contar com a nossa equipe para te ajudar de forma rápida e eficiente.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="pricing-container">
+                <h2>Planos e Preços</h2>
+                <p>Selecione um plano que atende as suas necessidades</p>
+                <div class="plans-container">
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$ 15/mês</li>
+                            <li class="plan-name">Básico</li>
+                            <li >2G de espaço</li>
+                            <li >1 Subdomínio</li>
+                            <li >25 contas de e-mail</li>
+                            <li >C-panel</li>
+                            <li >Suporte 24/7</li>
+                            <li class="plan-btn">Sabe mais</li>
+                        </ul>
+                    </div>
+
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$ 30/mês</li>
+                            <li class="plan-name">Dedicado</li>
+                            <li >5G de espaço</li>
+                            <li >10 Subdomínios</li>
+                            <li >50 contas de e-mail</li>
+                            <li >C-panel</li>
+                            <li >Suporte 24/7</li>
+                            <li class="plan-btn">Sabe mais</li>
+                        </ul>
+                    </div>
+
+                    <div class="plan">
+                        <ul>
+                            <li class="price recommended">R$ 50/mês</li>
+                            <li class="plan-name">Dedicado Plus</li>
+                            <li >10G de espaço</li>
+                            <li >10 Subdomínios</li>
+                            <li >100 contas de e-mail</li>
+                            <li >C-panel</li>
+                            <li >Suporte 24/7</li>
+                            <li class="plan-btn recommended">Sabe mais</li>
+                        </ul>
+                    </div>
+
+                    <div class="plan">
+                        <ul>
+                            <li class="price">R$ 100/mês</li>
+                            <li class="plan-name">Cloud</li>
+                            <li >20G de espaço</li>
+                            <li >20 Subdomínios</li>
+                            <li >200 contas de e-mail</li>
+                            <li >C-panel</li>
+                            <li >Suporte 24/7</li>
+                            <li class="plan-btn">Sabe mais</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="searchdomain-container">
+                <h2>Qual domínio você quer para o seu site?</h2>
+                <p>Verifique se o domínio está disponível</p>
+                <form>
+                  <input
+                    type="text"
+                    name="domain"
+                    id="domain"
+                    placeholder="Digite o domínio desejado"
+                  />
+                  <input type="submit" value="Procurar domínio">
+                </form>
+             </section>    
+              <!-- Seção Contato  -->
+               <section class="contact-container">
+                <h2>Mande uma mensagem</h2>
+                <p>Envie a sua mensagem, em até 4 horas um especialista entrará em contato</p>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Seu nome">
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                    <textarea name="message" 
+                    id="message" 
+                    placeholder="Descreva o que você precisa ou o seu projeto..."></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+               </section>
+         </main>
+         <footer> 
+            <p>Host Max @ 2024</p>
+         </footer>
+    </div>  
+     
+</body>
+</html>
